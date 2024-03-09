@@ -51,7 +51,7 @@ function MobileNav({ open, setOpen }: MobileNavProps): JSX.Element {
           href="/"
           onClick={() => setTimeout(() => setOpen(!open), 100)}
         >
-          Home
+          Ecosystem
         </Link>
         <Link
           className="text-xl font-normal my-4 text-center"
@@ -65,17 +65,19 @@ function MobileNav({ open, setOpen }: MobileNavProps): JSX.Element {
           href="/services"
           onClick={() => setTimeout(() => setOpen(!open), 100)}
         >
-          Services
+          Features
         </Link>
         <Link
           className="text-xl font-normal my-4  text-center"
           href="/page"
           onClick={() => setTimeout(() => setOpen(!open), 100)}
         >
-          Pages
+          Service
         </Link>
-        <button className="btn w-[50%] my-4 ml-[25%] ">Contact</button>
-              <button className="btn w-[50%] my-4 ml-[25%]">Contact Wallet</button>
+        {/* <button className="btn w-[50%] my-4 ml-[25%] ">Contact</button> */}
+        <button className="btn w-[40%]  ml-[30%] px-8 py-3 mt-5 lg:text-[19px] md:text-[15px]">Contact</button>
+
+              {/* <button className="btn w-[50%] my-4 ml-[25%]">Contact Wallet</button> */}
       </div>
     </div>
   );

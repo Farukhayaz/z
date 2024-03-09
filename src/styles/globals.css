@@ -4,6 +4,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+h1{
+  font-family: "Arbutus Slab" !important;
+}
+p{
+  font-family: Athiti !important;
+}
+button{
+  font-family: "Abhaya Libre ExtraBold" !important;
+}
 .d{
   border-bottom: 1px solid rgba(255, 255, 255, 0.60);
   background: rgba(217, 217, 217, 0.00);
