@@ -36,7 +36,7 @@
 }
 .navbar{
   color: #FFF;
-  font-family: Inter, sans-serif;
+  font-family: Inter, sans-serif !important;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -45,7 +45,7 @@
 .herotext{
   color: #FFF;
   /* font-family: Rowdies !important ; */
-  font-family: Arbutus Slab;
+  font-family: Arbutus Slab !important;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -53,7 +53,7 @@
 .headerp{
   color: #FFF;
 
-  font-family: Athiti;
+  font-family: Athiti !important;
   flex-shrink: 0;
   font-size: 20px;
   font-style: normal;
@@ -65,10 +65,10 @@
 
 
 .whitepaperbtn{
-  font-family: ABeeZee;
+  font-family: ABeeZee !important;
   font-size: 26px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: bolder !important;
   line-height: normal;
   color: transparent; /* Make the text color transparent */
   background: linear-gradient(to right, #0085FF, #FF00F5);
@@ -83,10 +83,10 @@
   display: inline-block;
  } 
  .whitepaperbtn2{
-  font-family: ABeeZee;
+  font-family: ABeeZee !important;
   font-size: 26px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: bolder;
   line-height: normal;
   color: transparent; /* Make the text color transparent */
   background: linear-gradient(to right, #0085FF, #FF00F5);
@@ -103,8 +103,7 @@
 .bar{
   color: #FFF;
 
-text-align: center;
-font-family: ABeeZee;
+font-family: ABeeZee !important;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -114,7 +113,7 @@ line-height: normal;
 flex-shrink: 0;
 color: #FFF;
 text-align: center;
-font-family: Rowdies;
+font-family: Rowdies !important;
 font-style: normal;
 font-weight: 300;
 line-height: normal;

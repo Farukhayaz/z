@@ -41,7 +41,7 @@ export default function hero() {
         </div>
       </div>
       <div className="d1   bg-[#120022] text-white p-6 ">
-        <p className="lg:w-[58%] md:w-[58%] w-[95%] lg :text-[30px] md:text-[30px] text-[20px] mx-auto bar">
+        <p className="lg:w-[58%] md:w-[58%] w-[95%] lg:text-center md:text-center lg :text-[30px] md:text-[30px] text-[18px] mx-auto bar">
         A Respected and Trusted Partner to Over 10+ Companies, With a Promising Array of New Collaborations Emerging on the Horizon.
         </p>
       </div>

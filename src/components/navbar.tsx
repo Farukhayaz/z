@@ -40,7 +40,7 @@ function MobileNav({ open, setOpen }: MobileNavProps): JSX.Element {
             width={200}
             height={68}
             className="h-[45px] mr-8"
-            src="/images/Logo2.png"
+            src="/images/log.png"
             alt="Logo"
           />
         </Link>

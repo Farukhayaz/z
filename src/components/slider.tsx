@@ -14,7 +14,7 @@ export default class Slider extends Component {
           borderRadius: "100px",
         }}
       >
-        <Carousel>
+        <Carousel  autoPlay infiniteLoop showArrows={false} showThumbs={false}>
         <div style={{ width: '100%', height: '100%' }}>
   <Image layout="responsive" width={200} height={200} src="/images/12.png" alt="image1" />
 </div>
