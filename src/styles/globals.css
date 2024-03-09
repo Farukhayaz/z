@@ -1,0 +1,135 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap') */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.d{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+  background: rgba(217, 217, 217, 0.00);
+}
+.d1{
+  border-top: 1px solid rgba(255, 255, 255, 0.60);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+
+}
+
+.btn{
+ 
+  border-radius: 40px;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  /* background:linear-gradient(180deg, #F9A2FF 0%, rgba(255, 135, 250, 0.00) 100%); */
+  /* box-shadow: 2px 1px 7px 0px rgba(249, 162, 255, 0.30); */
+  /* width: auto; */
+  /* padding: 12px; */
+  
+  /* height: 38px; */
+  /* flex-shrink: 0; */
+}
+
+
+
+.nav-bar{
+  background: #B38AC6;
+  box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.navbar{
+  color: #FFF;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.herotext{
+  color: #FFF;
+  /* font-family: Rowdies !important ; */
+  font-family: Arbutus Slab;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.headerp{
+  color: #FFF;
+
+  font-family: Athiti;
+  flex-shrink: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height:30px;
+}
+
+
+
+
+.whitepaperbtn{
+  font-family: ABeeZee;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: transparent; /* Make the text color transparent */
+  background: linear-gradient(to right, #0085FF, #FF00F5);
+  -webkit-background-clip: text; /* For webkit browsers */
+  background-clip: text; /* Clip the text to the background */
+  border: 2px solid transparent; /* Set an initial transparent border */
+  border-image-source: linear-gradient(to right, #0085FF, #FF00F5);
+  border-image-slice: 1;
+  border-width: 2px;
+  border-radius: 10px; /* Adjust the border radius according to your preference */
+  padding: 10px; /* Add padding for better visual appearance */
+  display: inline-block;
+ } 
+ .whitepaperbtn2{
+  font-family: ABeeZee;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: transparent; /* Make the text color transparent */
+  background: linear-gradient(to right, #0085FF, #FF00F5);
+  -webkit-background-clip: text; /* For webkit browsers */
+  background-clip: text; /* Clip the text to the background */
+  border: 2px solid transparent; /* Set an initial transparent border */
+  border-image-source: linear-gradient(to right, #FF00F5, #0085FF);
+  border-image-slice: 1;
+  border-width: 2px;
+  border-radius: 10px; /* Adjust the border radius according to your preference */
+  padding: 10px; /* Add padding for better visual appearance */
+  display: inline-block;
+ } 
+.bar{
+  color: #FFF;
+
+text-align: center;
+font-family: ABeeZee;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.publicsale{
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Rowdies;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+  border-radius: 30px;
+background: linear-gradient(78deg, rgba(255, 255, 255, 0.14) 8.68%, rgba(228, 153, 255, 0.56) 115.97%);
+}
+.glob{
+transition-duration: 1s;
+/* border: 1px solid #FFF; */
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+mix-blend-mode: luminosity;
+border-radius: 40%;
+
+}
+.glob:hover{
+  transform: scale(1.1);
+transition-duration: 1s;
+}
