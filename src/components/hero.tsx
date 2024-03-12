@@ -65,7 +65,7 @@ export default function hero() {
         >
           <div className="lg:pt-[12%] pb-10 md:pt-[12%] pt-[30%] flex flex-wrap text-white lg:w-[90%] md:w-[95%] w-[95%] mx-auto  ">
             <div className="lg:w-[50%]  md:w-[95%] w-[95%] lg:ml-0 md:ml-0 ml-1 ">
-              <h1 className="herotext mt-8  w-[95%] lg:text-[48px] md:text-[50px] text-[38px]">
+              <h1 className="herotext lg:mt-8 md:mt-8 mt-2 w-[95%] lg:text-[48px] md:text-[50px] text-[38px]">
                 A Decentralized Ecosystem For Web 3.0 Revolutions <br />(
                 <span className="text-[#F052CD]">Empowering </span>{" "}
                 <span className="text-[#23F9EC]"> the Next </span>{" "}
@@ -137,12 +137,11 @@ export default function hero() {
         </div>
         <div className="d1   bg-[#120022] text-white p-6 ">
           <p
-            className="lg:w-[58%] md:w-[58%] w-[100%] lg:text-center md:text-center lg :text-[30px] md:text-[30px] text-[18px] mx-auto bar"
+            className="lg:w-[58%] md:w-[58%] w-[100%] lg:text-[25px] md:text-[25px] text-[20px] lg:text-center md:text-center lg :text-[30px] md:text-[30px] text-[18px] mx-auto bar"
             style={{
               color: "#FFF",
               textAlign: "center",
               fontFamily: "ABeeZee",
-              fontSize: "25px",
               fontStyle: "normal",
               fontWeight: "400",
               lineHeight: "normal",

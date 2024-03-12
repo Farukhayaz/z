@@ -37,7 +37,7 @@ export default function Section2() {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
               }}
-              className="w-[90%] mx-auto lg:text-[44px] md:text-[44px] text-[33px]"
+              className="w-[90%] lg:mt-0 md:mt-0 mt-10 mx-auto lg:text-[44px] md:text-[44px] text-[33px]"
             >
               Empowering the Next Generation of Web 3.0 Users.
             </h1>
@@ -73,12 +73,13 @@ export default function Section2() {
             </p>
             <button
             style={{
+                fontFamily:" ABeeZee",
                 color:"white", 
                 borderRadius: "100px",
 border: "1px solid #0029FF",
 background: "#000",
             }}
-            className="p-3 px-5 mt-5 lg:ml-[50px] md:ml-[50px]"
+            className="p-3 px-5 mt-5 text-[22px]  lg:ml-[50px] md:ml-[50px] ml-[20px]"
             >
                 Learn more
             </button>
