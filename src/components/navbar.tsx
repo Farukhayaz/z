@@ -101,9 +101,9 @@ export default function Navbar(): JSX.Element {
           <div className="lg:w-3/12 w-[350px] flex items-center">
             <Link className="text-2xl " href="/">
               <Image
-                width={200}
+                width={180}
                 height={68}
-                className=" lg:w-[224px]"
+                className=" lg:w-[200px]"
                 src="/images/log.png"
                 alt="Logo"
               />
@@ -146,7 +146,7 @@ export default function Navbar(): JSX.Element {
               />
             </div>
 
-            <div className="  hidden  lg:w-[80%] md:w-[58%] lg:text-[19px] md:text-[15px] flex justify-around md:flex">
+            <div className="  hidden  lg:w-[80%] md:w-[58%] lg:text-[18px] md:text-[15px] flex justify-around md:flex">
               <NavLink to="/">Ecosystem</NavLink>
               <NavLink to="/about">About</NavLink>
               <NavLink to="/services">Features</NavLink>

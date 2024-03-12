@@ -1,10 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap') */
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-h1{
+
+
+/* h1{
   font-family: "Arbutus Slab" !important;
 }
 p{
@@ -12,12 +13,13 @@ p{
 }
 button{
   font-family: "Abhaya Libre ExtraBold" !important;
-}
+} */
 .d{
   border-bottom: 1px solid rgba(255, 255, 255, 0.60);
   background: rgba(217, 217, 217, 0.00);
 }
 .d1{
+  font-family: "ABeeZee" !important;
   border-top: 1px solid rgba(255, 255, 255, 0.60);
   border-bottom: 1px solid rgba(255, 255, 255, 0.60);
 
@@ -61,9 +63,8 @@ button{
 }
 .headerp{
   color: #FFF;
-
   font-family: Athiti !important;
-  flex-shrink: 0;
+    flex-shrink: 0;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -73,42 +74,6 @@ button{
 
 
 
-.whitepaperbtn{
-  font-family: ABeeZee !important;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: bolder !important;
-  line-height: normal;
-  color: transparent; /* Make the text color transparent */
-  background: linear-gradient(to right, #0085FF, #FF00F5);
-  -webkit-background-clip: text; /* For webkit browsers */
-  background-clip: text; /* Clip the text to the background */
-  border: 2px solid transparent; /* Set an initial transparent border */
-  border-image-source: linear-gradient(to right, #0085FF, #FF00F5);
-  border-image-slice: 1;
-  border-width: 2px;
-  border-radius: 10px; /* Adjust the border radius according to your preference */
-  padding: 10px; /* Add padding for better visual appearance */
-  display: inline-block;
- } 
- .whitepaperbtn2{
-  font-family: ABeeZee !important;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: bolder;
-  line-height: normal;
-  color: transparent; /* Make the text color transparent */
-  background: linear-gradient(to right, #0085FF, #FF00F5);
-  -webkit-background-clip: text; /* For webkit browsers */
-  background-clip: text; /* Clip the text to the background */
-  border: 2px solid transparent; /* Set an initial transparent border */
-  border-image-source: linear-gradient(to right, #FF00F5, #0085FF);
-  border-image-slice: 1;
-  border-width: 2px;
-  border-radius: 10px; /* Adjust the border radius according to your preference */
-  padding: 10px; /* Add padding for better visual appearance */
-  display: inline-block;
- } 
 .bar{
   color: #FFF;
 
