@@ -65,7 +65,7 @@ export default function hero() {
         >
           <div className="lg:pt-[12%] pb-10 md:pt-[12%] pt-[30%] flex flex-wrap text-white lg:w-[90%] md:w-[95%] w-[95%] mx-auto  ">
             <div className="lg:w-[50%]  md:w-[95%] w-[95%] lg:ml-0 md:ml-0 ml-1 ">
-              <h1 className="herotext lg:mt-8 md:mt-8 mt-2 w-[95%] lg:text-[40px] md:text-[50px] text-[38px]">
+              <h1 className="herotext lg:mt-8 md:mt-8 mt-2 w-[95%] lg:text-[42px] md:text-[50px] text-[38px]">
                 A Decentralized Ecosystem For Web 3.0 Revolutions <br />(
                 <span className="text-[#F052CD]">Empowering </span>{" "}
                 <span className="text-[#23F9EC]"> the Next </span>{" "}
@@ -83,9 +83,9 @@ export default function hero() {
                 future of the decentralized digital world, where universal
                 prosperity is within reach for everyone
               </p>
-              <div className="mt-10 flex flex-wrap justify-between lg:w-[70%] md:w-[50%] w-[100%]">
+              <div className="mt-10 flex flex-wrap justify-between lg:w-[75%] md:w-[50%] w-[100%]">
                 <button
-                  className="lg:w-[176px] text-[20px] p-3 lg:h-[55px]"
+                  className="lg:w-[200px] text-[20px] p-3 lg:h-[55px]"
                   style={{
                     borderRadius: "100px",
                     fontFamily: "ABeeZee",
@@ -124,7 +124,7 @@ export default function hero() {
                     transition:
                       "background 0.3s ease, color 0.3s ease" /* Add color transition */,
                   }}
-                  className="lg:w-[176px] text-[20px] p-3 lg:h-[55px]"
+                  className="lg:w-[200px] text-[20px] p-3 lg:h-[55px]"
                 >
                   WhitePaper
                 </button>
