@@ -75,6 +75,20 @@ button{
   line-height:30px;
 }
 
+.buttontok{
+  border-radius: 100px;
+  font-family: "ABeeZee";
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+  background: linear-gradient(to right, #0085FF, #FF00F5);
+  -webkit-background-clip: text ;/* Clip text to the background */
+  background-clip: text;
+  border: 2px solid #0085FF;
+  color: transparent; /* Make text color transparent */
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease /* Add color transition */
+}
 
 
 

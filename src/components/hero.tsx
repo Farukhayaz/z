@@ -83,48 +83,15 @@ export default function hero() {
                 future of the decentralized digital world, where universal
                 prosperity is within reach for everyone
               </p>
-              <div className="mt-10 flex flex-wrap justify-between lg:w-[75%] md:w-[50%] w-[100%]">
+              <div className="mt-10 flex flex-wrap justify-between lg:w-[75%] md:w-[50%] w-[93%]">
                 <button
-                  className="lg:w-[200px] text-[20px] p-3 lg:h-[55px]"
-                  style={{
-                    borderRadius: "100px",
-                    fontFamily: "ABeeZee",
-                    fontSize: "26px",
-                    fontStyle: "normal",
-                    fontWeight: "bolder",
-                    lineHeight: "normal",
-                    background: "linear-gradient(to right, #0085FF, #FF00F5)",
-                    WebkitBackgroundClip:
-                      "text" /* Clip text to the background */,
-                    backgroundClip: "text",
-                    border: "2px solid #0085FF",
-                    color: "transparent" /* Make text color transparent */,
-                    cursor: "pointer",
-                    transition:
-                      "background 0.3s ease, color 0.3s ease" /* Add color transition */,
-                  }}
+                  className="buttontok lg:w-[200px] lg:text-[26px] md:text-[26px] text-[22px] p-3 lg:h-[55px]"
+                
                 >
                   Tokenomics
                 </button>
                 <button
-                  style={{
-                    borderRadius: "100px",
-                    fontFamily: "ABeeZee",
-                    fontSize: "26px",
-                    fontStyle: "normal",
-                    fontWeight: "bolder",
-                    lineHeight: "normal",
-                    background: "linear-gradient(to right, #0085FF, #FF00F5)",
-                    WebkitBackgroundClip:
-                      "text" /* Clip text to the background */,
-                    backgroundClip: "text",
-                    border: "2px solid #0085FF",
-                    color: "transparent" /* Make text color transparent */,
-                    cursor: "pointer",
-                    transition:
-                      "background 0.3s ease, color 0.3s ease" /* Add color transition */,
-                  }}
-                  className="lg:w-[200px] text-[20px] p-3 lg:h-[55px]"
+                  className=" buttontok lg:w-[200px] lg:text-[26px] md:text-[26px] text-[22px] p-3 lg:h-[55px]"
                 >
                   WhitePaper
                 </button>
