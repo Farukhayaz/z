@@ -65,7 +65,7 @@ export default function hero() {
         >
           <div className="lg:pt-[12%] pb-10 md:pt-[12%] pt-[30%] flex flex-wrap text-white lg:w-[90%] md:w-[95%] w-[95%] mx-auto  ">
             <div className="lg:w-[50%]  md:w-[95%] w-[95%] lg:ml-0 md:ml-0 ml-1 ">
-              <h1 className="herotext lg:mt-8 md:mt-8 mt-2 w-[95%] lg:text-[42px] md:text-[50px] text-[38px]">
+              <h1 className="herotext lg:mt-8 md:mt-8 mt-2 w-[95%] lg:text-[42px] md:text-[50px] text-[30px]">
                 A Decentralized Ecosystem For Web 3.0 Revolutions <br />(
                 <span className="text-[#F052CD]">Empowering </span>{" "}
                 <span className="text-[#23F9EC]"> the Next </span>{" "}
