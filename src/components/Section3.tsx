@@ -2,6 +2,11 @@ import Image from "next/image";
 import React,{useState} from "react";
 
 export default function Section3() {
+    const [currentSlide, setCurrentSlide] = useState(0);
+    
+    const handleSlideChange = (index:number) => {
+      setCurrentSlide(index);
+    };
 
     const sliderData = [
         {
@@ -31,12 +36,7 @@ export default function Section3() {
         // Add more objects with image, alt, and text for each slider item
       ];
     
-      const [currentSlide, setCurrentSlide] = useState(0);
-    
-      const handleSlideChange = (index) => {
-        setCurrentSlide(index);
-      };
-    
+ 
   return (
     <div className="bg-[#1d012c]  ">
       <div className="text-center w-[90%] mx-auto">
