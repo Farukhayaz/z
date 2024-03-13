@@ -84,7 +84,7 @@ background: "#000",
             </button>
           </div>
           <div
-            className="lg:w-[50%] md:w-[50%] w-[100%] mt-8 mx-auto  md:invisible lg:invisible  "
+            className="lg:w-[0%] md:w-[0%] w-[100%] mt-8 mx-auto  md:invisible lg:invisible  "
             style={{
               backgroundImage: "url(/images/21.png)",
               // backgroundImage:"radial-gradient(#812478, #251631)",
