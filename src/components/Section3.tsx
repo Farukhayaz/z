@@ -19,7 +19,7 @@ export default function Section3() {
         },
         {
           image1: '/images/11.png',
-            image: '/images/DexFreelancing.png',
+            image: '/images/PrivateBlockchain.png',
             alt: 'Image 2',
             text: 'Private Blockchain',
             text2:'Zenith X Labs empowers businesses with secure, permissioned blockchains.  Our private networks foster trusted collaboration, streamline workflows, and enhance data privacy.'
@@ -30,8 +30,35 @@ export default function Section3() {
             alt: 'Image 3',
             text: 'Hard & Soft Wallet',
             text2:'Hardware Wallet: Unparalleled security for your holdings. Offline storage keeps your crypto safe, even if your device is compromised. Software Wallet: Convenience and accessibility at your fingertips. Manage your crypto on the go and easily interact with the Zenith X Labs ecosystem.'
-
-          }
+          },
+          {
+            image1: '/images/11.png',
+              image: '/images/DexFreelancing.png',
+              alt: 'Image 4',
+              text: 'Decentralized Freelancing',
+              text2: "VR integration: Immerse yourself in VR highlights the use of virtual reality. Decentralized freelancing:  Secure, global collaboration emphasizes the platform's core function. Uniqueness: Freelance like never before positions the platform as innovative. ",
+            },
+            {
+              image1: '/images/11.png',
+                image: '/images/DexCommerce.png',
+                alt: 'Image 4',
+                text: 'Decentralized Commerce',
+                text2: "VR integration: Immerse yourself in VR highlights the use of virtual reality. Decentralized freelancing:  Secure, global collaboration emphasizes the platform's core function. Uniqueness: Freelance like never before positions the platform as innovative. ",
+              },
+              {
+                image1: '/images/11.png',
+                  image: '/images/NftsMem.png',
+                  alt: 'Image 4',
+                  text: 'NFTs Membership',
+                  text2: "Become a member of the future. Owning a Zenith NFT grants exclusive access to our thriving VR ecosystem. Enjoy premium content, participate in member-only events, and connect with a passionate VR community.",
+                },
+                {
+                  image1: '/images/11.png',
+                    image: '/images/games.png',
+                    alt: 'Image 4',
+                    text: 'VR Battle Royal Game',
+                    text2: "Become a member of the future. Owning a Zenith NFT grants exclusive access to our thriving VR ecosystem. Enjoy premium content, participate in member-only events, and connect with a passionate VR community.",
+                  },
 
         // Add more objects with image, alt, and text for each slider item
       ];
@@ -155,8 +182,8 @@ export default function Section3() {
           </div>
         </div>
       </div> */}
-       <div className="w-[90%] pb-5 flex flex-wrap mx-auto mt-[5%]">
-      <div className="lg:w-[30%]   w-[95%]">
+       <div className="w-[90%] pb-5 flex flex-wrap mx-auto pb-[8%] mt-[5%]">
+      <div className="lg:w-[32%]   w-[95%]">
         <ul>
           {/* Render the list items with images and text */}
           {sliderData.map((item, index) => (
@@ -176,7 +203,7 @@ export default function Section3() {
                 alt={`image${index + 1}`}
                 className="h-[40px] w-[40px]"
               />
-              <h1 className="ml-[10%] ecoh">{item.text}</h1>
+              <h1 className="ml-[6%] ecoh">{item.text}</h1>
             </li>
           ))}
         </ul>
@@ -187,11 +214,11 @@ export default function Section3() {
           style={{ backgroundImage: `url(${sliderData[currentSlide].image1})`, backgroundSize: '100% 100%' }}
         >
          <Image
-  width={300}
+  width={270}
   height={100}
   src={sliderData[currentSlide].image}
   alt={`image${currentSlide + 1}`}
-  className=""
+  className="mr-10"
 />
 
         </div>
